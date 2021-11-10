@@ -26,3 +26,5 @@ var bodyParser = require('body-parser');
 ・「app.use(express.urlencoded());」を「app.use(bodyParser.urlencoded({extended: true}));」に変更。
 なお、urlencoded に与える extended パラメータの値については公式サイト等を参照。
 参考: https://www.npmjs.com/package/body-parser
+
+//
